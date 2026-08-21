@@ -39,3 +39,11 @@ b = 1.8e308
 print(a, b)  # inf = 범위를 벗어남
 
 # 실수의 오차
+print(0.1 + 0.2 == 0.3)
+print(f"{0.1:.20f}")
+print(f"{0.2:.20f}")
+# sys.float_info.epsilon
+
+# 형변환
+print(float(10))
+print(int(3.14))  # print(int("3.14")) 와 같이 문자->숫자 불가능
