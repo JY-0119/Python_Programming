@@ -28,3 +28,21 @@ print("10" + "2")
 # 문자열 반복
 print("Hello" * 10)
 print("_" * 50)
+
+# 문자열 포맷팅 (f-string)
+name = "pororo"
+age = 23
+print(f"이름: {name}, 나이: {age}살")
+print(f"내년 나이: {age+1}")
+print(f"{name.upper()}")
+
+pi = 3.141592
+print(f"{pi:.3f}")
+print(f"{pi:.0f}")
+
+num = 123456789
+print(f"{num:,}")
+print("123456789012345")
+print(f"{num:15d}")
+print(f"{num:<15d}")
+print(f"{num:015d}")
