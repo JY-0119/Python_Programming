@@ -7,7 +7,7 @@ b = 3
 print(a + b)
 print(a - b)
 print(a * b)
-print(a / b)
+print(a / b)  # 결과: Float형
 print(a % b)
 print(a // b)
 print(a**b)
