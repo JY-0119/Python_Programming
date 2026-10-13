@@ -183,6 +183,7 @@ std3 = scores[2]
 result = [sum(score) / len(score) for score in zip(std1, std2, std3)]
 result = [round(sum(score), 2) / len(score) for score in zip(*scores)]
 
+print(list(zip(std1, std2, std3)))
 print(result)
 
 # 은행가 반올림 (오차를 상쇄)
